@@ -15,6 +15,7 @@
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="./index.html">Home</a>
     <a href="./contact.html">Contact</a>
+    <a href="#">About</a>
     <a href="#">Portfolio</a>
     <a href="#">Blog</a>
   </div>
@@ -32,8 +33,22 @@
   </div>
 
   
-
-  <div class="item-4">I want to hear from you</div>
+  <div class="item-4">
+    <h2>I want to hear from you</h2>
+    <form action="/action_page.php">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      
+    </form>
+    <form action="/action_page.php" id="usrform">
+      Name: <input type="text" name="usrname">
+    </form>
+    <br>
+    <textarea rows="10" cols="40" name="comment" form="usrform" >
+    Message</textarea>
+    <br>
+    <input type="submit" class="button" value="Submit">
+  </div>
 
   <div class="item-5">
     <a href="#" class="fa fa-facebook"></a>
