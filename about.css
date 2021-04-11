@@ -1,5 +1,7 @@
 body {
   font-family: 'Jura', sans-serif;
+  width: 100%;
+  
 }
 .sidenav {
   height: 100%;
@@ -50,7 +52,7 @@ body {
   align-items: center;
   margin: 50px;
   border: 10px solid black;
-  padding: 5px;
+  padding: 20px;
   height: 400px;
 }
 
@@ -140,7 +142,9 @@ p {
 
 
 
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 600px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+
+  
 }
