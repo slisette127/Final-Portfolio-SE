@@ -1,0 +1,101 @@
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.hello {
+  background-color: blue;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+  
+}
+.aboutMe {
+  background: url(amy.jpg);
+  background-color: rgb(149,188,217);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.quote1 {
+  background-color: lightyellow;
+  height: 150px;
+  color: black;
+  font-size: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.myStory {
+  background: url(liner.jpg);
+  background-color: rgb(252,94,0);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.quote2 {
+  background-color: lightyellow;
+  height: 150px;
+  color: black;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.Stuff {
+  background: url(marylin.jpg);
+ background-color: rgb(155,173,168);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
