@@ -1,6 +1,7 @@
 body {
   font-family: 'Jura', sans-serif;
   width: 100%;
+  margin: 20px;
   
 }
 .sidenav {
@@ -58,6 +59,17 @@ body {
 
 .buttons {
   display: flex;
+  align-items: center;
+}
+
+.threebuttons {
+  margin: 15px;
+  padding: 10px;
+  color: black;
+  font-size: 25px;
+  background-color: lightgray;
+  border: 1px solid black;
+  border-radius: 10px;
 }
 
 img {
@@ -73,7 +85,7 @@ p {
   padding: 10px;
 }
 
-.aboutMe {
+#aboutMe {
   display: flex;
   flex-direction: row;
   border: 5px solid black;
@@ -112,7 +124,7 @@ p {
   border: 5px solid black;
 } */
 
-.theStory {
+#theStory {
   display: flex;
   flex-direction: row;
   border: 5px solid black;
@@ -140,7 +152,7 @@ p {
   border-right: 5px solid black;
 }
 
-.Stuff {
+#Stuff {
   display: flex;
   flex-direction: row;
   border: 5px solid black;
