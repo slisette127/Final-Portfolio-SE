@@ -43,6 +43,10 @@ body {
 }
 
 .header {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-size: 80px;
+  margin: 0;
 }
 
 .flex-container {
