@@ -42,6 +42,8 @@ body {
   margin-left: 50px;
 }
 
+.header {
+}
 
 .flex-container {
   display: -ms-flexbox; 
@@ -49,7 +51,8 @@ body {
   -ms-flex-wrap: wrap; 
   flex-wrap: wrap;
   padding: 0 4px;
-  justify-content: space-evenly;
+  justify-content: center;
+  width: 100%;
 }
 
 .column {
@@ -110,7 +113,7 @@ body {
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
