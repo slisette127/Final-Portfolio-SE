@@ -52,9 +52,10 @@ body {
   justify-content: center;
   align-items: center;
   margin: 50px;
-  border: 10px solid black;
+  border: 10px solid #3d3d3d;
   padding: 20px;
   height: 400px;
+  color: #3d3d3d;
 }
 
 .buttons {
@@ -109,22 +110,6 @@ p {
   
 }
 
-/* #myStory {
-  background: url(liner.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 800px;
-  width: 100%;
-} */
-
-
-/* .storyimg {
-  grid-column: 1;
-  margin: 0;
-  object-fit: cover;
-  border: 5px solid black;
-} */
-
 #theStory {
   display: flex;
   flex-direction: row;
@@ -161,6 +146,11 @@ p {
   justify-content: center;
   text-align: center;
 }
+/* .responsive {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+} */
 
 
 
@@ -170,11 +160,110 @@ p {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 
-  .theStory {
+  #hello {
+    height: 200px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .hellotext {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: start;
+    text-align: center;
+    align-items: center;
+    border: 5px solid #3d3d3d;
+    padding: 20px;
+    color: #3d3d3d;
+    margin: 0;
+  }
+
+  .threebuttons {
+    margin: 5px;
+    padding: 5px;
+    color: black;
+    font-size: 15px;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+
+  img {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    width: 80%;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
   }
   
+  p {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px
+  }
+
+  #aboutMe {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    background-color: rgb(149,187,215);
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
+  .quote1 {
+    background-color: rgb(240,211,219);
+    height: 150px;
+    color: black;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+    
+  }
+  
+  #theStory {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 5px solid black;
+    background-color: rgb(252,94,0);
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
+  
+  
+  .quote2 {
+    background-color: rgb(240,211,219);
+    height: 150px;
+    color: black;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    border-left: 5px solid black;
+    border-right: 5px solid black;
+  }
+  
+  #Stuff {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid black;
+    background-color: rgb(155,173,168);
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+  }
 }
