@@ -45,8 +45,10 @@ body {
 .header {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  font-size: 80px;
-  margin: 0;
+  font-size: 90px;
+  margin: 40px;
+  border: 10px solid black;
+  padding: 5px;
 }
 
 .flex-container {
