@@ -7,6 +7,26 @@ body {
   margin: 0;
 }
 
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+ 
+}
+
 .sidenav {
   height: 100%;
   width: 0;
@@ -47,8 +67,10 @@ body {
   text-orientation: upright;
   font-size: 90px;
   margin: 40px;
-  border: 10px solid black;
+  border: 10px solid #3d3d3d;
+  color: #3d3d3d;
   padding: 5px;
+  background-color: whitesmoke;
 }
 
 .flex-container {
