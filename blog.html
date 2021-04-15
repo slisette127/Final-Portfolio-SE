@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="blog.css">
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="./index.html">Home</a>
+    <a href="./contact.html">Contact</a>
+    <a href="./about.html">About</a>
+    <a href="./portfolio.html">Portfolio</a>
+    <a href="./blog.html">Blog</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  
+  <div class="center">
+    <p>This is <span class="animate"></span></p>
+  </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+<script src="typed.js"></script>
+<script>
+  var typed = new Typed(".animate", {
+    strings: [
+      "My Blog",
+      "not very interesting. You can read it. Or not, it's up to you.",
+    ],
+    typeSpeed: 50,
+    backDelay: 60,
+    backSpeed: 40,
+    loop: true,
+  });
+</script>
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  <script src="contact.js"></script>
+</body>
+</html>
