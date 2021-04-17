@@ -5,6 +5,10 @@
 }
 body {
   margin: 0;
+  background-image: url(blogEyes.jpg);
+  background-position: top;
+  object-fit: contain;
+  
 }
 
 .sidenav {
@@ -46,10 +50,10 @@ body {
   top: 55%;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 200;
-  font-size: 35px;
+  font-weight: 300;
+  font-size: 50px;
   width: 100%;
-  color:  #3d3d3d;
+  color:  black;
   margin-bottom: 50px;
 }
 
@@ -58,6 +62,10 @@ body {
   grid-template-columns: 33% 34% 33%;
   width: 100%;
   flex-wrap: wrap;
+  background-color: whitesmoke;
+  opacity: .85;
+  font-family: 'Open Sans', sans-serif;
+  
 }
 
 .blog1 {
@@ -139,8 +147,9 @@ img {
  height: 100%;
 }
 
-a {
-  background-color: teal;
+.read {
+  background-color: rgb(117,145,149);
+  color: black;
   width: 100px;
   padding: 5px;
   margin: 20px;
