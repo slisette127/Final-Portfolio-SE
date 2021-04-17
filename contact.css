@@ -109,34 +109,13 @@ h2 {
   text-decoration: none;
 }
 img:hover {
-  opacity: 0.7;
-  
+  opacity: 0.7; 
 }
 
-  
-
-
-
-.fa-linkedin {
-  background: rgb(201,100,152);
-  color: white;
-}
-.fa-pinterest {
-  background: rgb(201,100,152);
-  color: white;
-}
-.fa-instagram {
-  background: rgb(201,100,152);
-  color: white;
-}
-
-#facebook {
+#social {
   height: 50px;
 }
 
-#twitter {
-  height: 50px;
-}
 
 
 

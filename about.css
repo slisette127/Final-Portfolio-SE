@@ -51,9 +51,10 @@ body {
   grid-column: 2;
   justify-content: center;
   align-items: center;
+  text-align: center;
   margin: 50px;
   border: 10px solid #3d3d3d;
-  padding: 20px;
+  padding: 30px;
   height: 400px;
   color: #3d3d3d;
 }
@@ -82,8 +83,9 @@ img {
 
 p {
   font-size: 30px;
-  padding: 10px;
-  margin: 10px
+  padding: 25px;
+  margin: 20px;
+  align-items: center;
 }
 
 #aboutMe {
@@ -93,6 +95,8 @@ p {
   background-color: rgb(149,187,215);
   justify-content: center;
   text-align: center;
+  align-items: center;
+  
 }
 
 .quote1 {
@@ -145,15 +149,6 @@ p {
   justify-content: center;
   text-align: center;
 }
-/* .responsive {
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-} */
-
-
-
-
 
 @media screen and (max-width: 600px) {
   .sidenav {padding-top: 15px;}
@@ -209,6 +204,7 @@ p {
     background-color: rgb(149,187,215);
     justify-content: center;
     text-align: center;
+    align-items: center;
     height: auto;
     width: auto;
   }
