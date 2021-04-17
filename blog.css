@@ -55,41 +55,108 @@ body {
 
 .flex-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 40% 60%;
+  grid-template-columns: 33% 34% 33%;
   width: 100%;
-
+  flex-wrap: wrap;
 }
 
 .blog1 {
-  background-color: red;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   width: 100%;
   grid-row: 1;
   grid-column: 1;
-  object-fit: contain;
+  align-items: center;
+  border: 2px solid black;
+  
 }
 
 .oneText {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   grid-column: 1;
   grid-row: 2;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.blog2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  grid-row: 1;
+  grid-column: 2;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.twoText {
+  display: flex;
+  flex-direction: column;
+  grid-column: 2;
+  grid-row: 2;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.blog3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  grid-row: 1;
+  grid-column: 3;
+  align-items: center;
+  border: 2px solid black;
+}
+
+.threeText {
+  display: flex;
+  flex-direction: column;
+  grid-column: 3;
+  grid-row: 2;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 15px;
+  border: 2px solid black;
 }
 
 img {
- height: 400px;
- width: 400px;
- object-fit: cover;
+ width: 100%;
+ height: 100%;
+}
+
+a {
+  background-color: teal;
+  width: 100px;
+  padding: 5px;
+  margin: 20px;
 }
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .column {
     flex: 100%;
     max-width: 100%;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
   }
 }
