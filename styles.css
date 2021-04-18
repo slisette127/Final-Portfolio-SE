@@ -79,9 +79,16 @@ p {
 
 
 
-@media screen and (max-height: 600px) {
+@media screen and (max-width: 600px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 
+
+
+.image {
+  left: 0%;
+  top: 30%;
+  height: 400px;
+}
  
 }
